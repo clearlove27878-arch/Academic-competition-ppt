@@ -1,0 +1,8 @@
+interface:
+  display_name: "Academic Competition PPT"
+  short_description: "Chinese contest PPT from papers"
+  brand_color: "#065758"
+  default_prompt: "Use $academic-competition-ppt to parse my Chinese academic paper and create a polished editable PPTX competition deck."
+
+policy:
+  allow_implicit_invocation: true
