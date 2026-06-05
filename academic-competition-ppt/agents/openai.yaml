@@ -1,8 +1,8 @@
 interface:
-  display_name: "Academic Competition PPT"
-  short_description: "Chinese contest PPT from papers"
+  display_name: "Long-Form Academic PPT"
+  short_description: "Long Chinese paper explanation decks"
   brand_color: "#065758"
-  default_prompt: "Use $academic-competition-ppt to parse my Chinese academic paper and create a polished editable PPTX competition deck."
+  default_prompt: "Use $academic-competition-ppt to turn my Chinese academic paper into a long-form editable PPTX that explains the paper clearly, including concepts, methods, results, mechanisms, robustness, and implications."
 
 policy:
   allow_implicit_invocation: true

@@ -1,8 +1,31 @@
 # Page Types
 
-Use these page types as the deck library. A full competition summary deck should use about 18-20 slides; if the paper is concise, use 15 high-quality non-repeating slides. A long paper report should use 50-70 slides while still preserving the competition frame unless the user explicitly asks for ordinary courseware.
+Use these page types as the deck library. Default output is a long-form paper presentation: 30-45 slides for ordinary papers, 40-60 for empirical deep explanation, and 50-70 for complex methods, formulas, or literature seminars. Short 15-20 slide decks are explicit summary variants only.
 
-## Default 20-Slide Competition Structure
+## Default Long-Form 30-70 Slide Structure
+
+Use this by default. The goal is coverage and explanation, not compression and not mechanical splitting. Long-form decks must still include strong navigation, chapter dividers, bottom takeaway bars, background identity, stage recaps, and logic-chain return pages unless the user explicitly requests ordinary courseware.
+
+| Range | Chapter | Typical Pages |
+|---:|---|---|
+| 1-3 | Opening | cover, reality paradox, table of contents or research-chain map |
+| 4-8 | Problem Chain | background tension, wrong intuition, research question, literature gap |
+| 9-15 | Concept Chain | definitions, measurement, theoretical foundation, hypotheses |
+| 16-25 | Model / Measurement | formula walkthrough, symbol decoder, variable construction, method rationale |
+| 26-34 | Data / Identification | data source, sample, descriptive logic, identification threat, model boundary |
+| 35-45 | Main Evidence / Expected Tests | baseline table or planned test, coefficient meaning, result translation |
+| 46-55 | Mechanism / Heterogeneity | pathway tests, subgroup stories, interaction or boundary logic |
+| 56-64 | Robustness / Endogeneity | doubts, alternative measures, placebo, lag, IV/DID/event study checks |
+| 65-69 | Contribution / Implications | academic contribution, policy/method implications, limitations |
+| 70 | Closing | Q&A |
+
+Adjust within the default ranges according to source complexity. Research plans may stop at 28-45 slides while preserving planned-test language.
+
+Each major chapter should include at least one chapter/transition page, one follow-up question page, two to four explanation/evidence pages, and one recap or transition takeaway. Ordinary content pages should include source-driven paragraphs, a paper object, visible header/navigation, and bottom takeaway chrome.
+
+## Short / Explicit Summary Variant: 20-Slide Competition Structure
+
+Use only when the user explicitly asks for a concise, short, roadshow, speed-defense, or 15-20 slide version.
 
 | # | Page Type | Purpose | Proof Object |
 |---:|---|---|---|
@@ -27,9 +50,9 @@ Use these page types as the deck library. A full competition summary deck should
 | 19 | Policy Recommendations | Actionable implications | 4 recommendation cards |
 | 20 | Thanks / Q&A | Closing | Title + contest line |
 
-## 15-Slide Non-Repeating Alternative
+## Short / Explicit Summary Variant: 15-Slide Non-Repeating Alternative
 
-Use when the paper lacks enough empirical sections:
+Use only when the user explicitly asks for a very concise deck or when the source has too little material for a longer explanation:
 
 1. Cover
 2. Research Puzzle Hook
@@ -47,9 +70,9 @@ Use when the paper lacks enough empirical sections:
 14. Conclusions and Policy Suggestions
 15. Thanks / Q&A
 
-## Long-Form 50-70 Slide Structure
+## Expanded Long-Form 50-70 Slide Structure
 
-Use this when the user asks for a detailed report of a long paper, especially 40 pages or more. The goal is coverage and explanation, not compression. In default competition-frame mode, long-form decks must still include navigation, chapter dividers, background identity, stage recaps, and logic-chain return pages.
+Use this by default for detailed empirical papers, 40-page-plus reports, complex formulas, dense literature seminars, or when the source has many tables/tests. The goal is coverage and explanation, not compression.
 
 ### Default 60-Slide Structure
 
@@ -71,9 +94,9 @@ Use this when the user asks for a detailed report of a long paper, especially 40
 | 58-59 | Implications | academic meaning, policy or market implication, final conclusion |
 | 60 | Closing | Thanks / Q&A |
 
-### 50-Slide Compressed Long Form
+### 50-Slide Moderate Long Form
 
-Use if the paper is detailed but the user wants a shorter report:
+Use if the paper is detailed but does not need the full 60-70 slide treatment:
 
 - Opening: 3
 - Motivation/literature: 6

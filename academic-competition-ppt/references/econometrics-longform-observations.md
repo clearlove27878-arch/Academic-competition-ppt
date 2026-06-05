@@ -4,7 +4,7 @@ These observations come from the user's long reference PPT:
 
 `计量经济学.pptx`
 
-Use this file when the user wants a 50-70 slide paper/course report rather than a compact 15-20 slide competition deck. Borrow its long-form pacing, but default to the competition-frame visual system unless the user explicitly asks for ordinary courseware.
+Use this file for 50-70 slide econometrics-heavy paper/course reports. Borrow its long-form pacing, and default to the competition-frame visual system unless the user explicitly asks for ordinary courseware or a compact 15-20 slide summary.
 
 ## Deck Profile
 
@@ -66,7 +66,7 @@ Use reference A for polish and green-finance contest identity, but borrow this l
 - Keep A's teal/gold chrome for formal reports.
 - Use lighter content pages for formula-heavy sequences.
 - Do not force every long-form slide into ornate A-style cards; technical sequences need air.
-- Insert A-style chapter dividers every 8-12 slides to restore rhythm.
+- Insert chapter dividers, recap pages, or logic-chain returns every 6-8 slides to restore rhythm.
 - Use long-form micro-slides for formulas, tables, and robustness batteries.
 - Keep independent navigation and logic-chain breadcrumbs in long-form competition decks.
 - Switch to the lighter courseware look only when the user explicitly says not to use competition mode.
